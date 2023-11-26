@@ -75,6 +75,7 @@ nav a {
     display: block;
 }
 
+
 /*-------------------------------------------------------*/
 
 a.externo::after {
@@ -217,8 +218,20 @@ main ul {
     font-style: italic;
 }
 
+.lobito {
+    background-image: linear-gradient(to right, rgba(255, 255, 0, 0.3), transparent);
+}
+
+.caminheiro {
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0.3), transparent);
+}
+
 .italico {
     font-style: italic;
+}
+
+.dirigente {
+    background-image: linear-gradient(to right, rgba(0, 128, 0, 0.3), transparent);
 }
 
 .voltar {
@@ -233,6 +246,16 @@ main ul {
     text-align: right;
     font-weight: border;
     font-size: .8em;
+}
+
+#oracao {
+    line-height: 2em;
+    padding-left: 3em;
+    font-style: italic;
+}
+
+h1.oracaopri {
+    text-indent: 1.5em;
 }
 
 p.especial::before {
@@ -250,6 +273,7 @@ p.topo::after {
 main li:hover {
     background-color: var(--cor4);
     color: white;
+    padding: 10px;
 }
 
 p.fonte {
