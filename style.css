@@ -232,7 +232,7 @@ main ul {
     text-decoration: none;
     text-align: right;
     font-weight: border;
-    font-size: 1em;
+    font-size: .8em;
 }
 
 p.especial::before {
@@ -258,7 +258,7 @@ p.fonte {
     text-align: right;
     font-style: italic;
     font-size: small;
-    padding: 1px;
+    padding: 1px 10px 1px 1px;
 }
 
 aside {
